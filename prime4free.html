@@ -1,16 +1,15 @@
 <!-- source https://github.com/GTeninbaum/primebot.html/blob/master/.gitignore/primebot.html -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" >
 
 <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <title>PrimeBot</title>
+  <title>prime4free</title>
   <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
   <meta content="no" name="apple-mobile-web-app-capable" />
   <meta content="black" name="apple-mobile-web-app-status-bar-style" />
   <meta content="website" property="og:type" />
-  <meta content="PrimeBot" property="og:title" />
+  <meta content="prime4free" property="og:title" />
   <meta content="" property="og:image" />
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <link href="http://www.qnamarkup.org/images/QnA_300.png" rel="apple-touch-icon" />
@@ -23,21 +22,18 @@
 <body background="" bgcolor="#ffffff" marginheight="0" marginwidth="0" onload="startAT('1');">
   <form id="FORM" name="FORM">
     <div id="conversation" style="margin:15px auto 0 auto;padding:0 15px;max-width:500px">
-      <div style="text-align: center;"><span style="font-size:28px;"><strong>PrimeBot <span style="color:#FF0000;">BETA</span></strong></span><br />
+      <div style="text-align: center;"><span style="font-size:28px;"><strong>prime4free</strong></span><br />
         &nbsp;</div>
-
-      <div style="text-align: center;"><strong>A <a href="http://henrikzillmer.com/justice-as-a-service">Justice-as-a-Service
-            Project</a></strong></div>
 
       <div style="text-align: center;"></div>
 
-      <p>What this project does and why it does it:</p>
+      <p>What is prime4free?</p>
 
       <p><em>Amazon Prime customers pay $99/yr to receive expedited shipping on packages.&nbsp; When Amazon fails to
           live up to their end of the agreement, the fine print of the Prime Terms &amp; Conditions entitles customers
           to a one-month extension of Prime.&nbsp; </em></p>
 
-      <p><em>This <strong>free</strong> tool confirms that a late-arriving package entitles a Prime Customer to the
+      <p><em>This tool confirms that a late-arriving package entitles a Prime Customer to the
           extension, and then generates an email to Amazon Customer Service to enforce their rights.</em></p>
       &nbsp;
 
@@ -49,8 +45,7 @@
 
       <div class="choices" id="Choices"></div>
 
-      <div id="rawmarkup" style="display:none;">TITLE:PrimeBot BEFORE:PrimeBot: &lt;br&gt;A Justice-as-a-Service
-        Project Q(1):Do you have a paid Amazon Prime account? A:Yes. Q(1.1):GOTO:2 A:No. Q(1.2):This tool is for people
+      <div id="rawmarkup" style="display:none;">TITLE:prime4free BEFORE:prime4free: &lt;br&gt; Q(1):Do you have a paid Amazon Prime account? A:Yes. Q(1.1):GOTO:2 A:No. Q(1.2):This tool is for people
         who have paid for Amazon Prime accounts. You might still have a remedy if something went wrong with your order,
         it&#39;s just not currently available using this tool. Q(2):Did your package arrive late? A:Yes. Q(2.1):GOTO:3
         A:No. Q(2.2): This tool is for people whose package arrived late. You might still have a remedy, it&#39;s just
@@ -335,19 +330,11 @@ Thank you,
       <div style="float:left;width:100%;margin:15px 0 0px 0;border-top: solid 1px #ddd;">
         <div class="credits" id="credits" style="display:none;">
           <div class="credit_text">
-            <p><b>PrimeBot</b></p>
+            <p><b>prime4free</b></p>
           </div>
         </div>
 
         <div style="text-align: center;">***</div>
-
-        <div style="text-align: center;"><strong>Please share Amazon&#39;s response to your request by clicking <a href="https://docs.google.com/spreadsheets/d/1Gcc3GLcX9XUsIUsPK8eq-lbXFKyFGBNfOBWaMHqs-GM/edit?usp=sharing">here</a>.
-          </strong></div>
-
-        <div style="text-align: justify;"><em>One way consumers can even the playing field with big companies is by
-            pooling information.&nbsp; For example, if you used this tool and asked Amazon for additional compensation
-            for your inconvenience (e.g. $5 promotional credit), it&#39;d be valuable for others to know Amazon&#39;s
-            response before making their own request.</em></div>
 
         <p style="text-align: center;">***</p>
       </div>
@@ -434,7 +421,6 @@ Thank you,
             renderQnA(Qhtml, Jhtml, Dhtml, restart);
           }
         }
-
       }
 
       function renderQnA(Qht, Jht, Dht, restar) {
@@ -508,7 +494,6 @@ Thank you,
         }
         console.log("Q#: " + QNum);
         QNum++;
-
       }
 
       function swapGOTO(QH, JH) {
@@ -621,6 +606,7 @@ Thank you,
           }
         }
       }
+
       //show OR hide funtion depends on if element is shown or hidden
       function shoh(id) {
         if (document.getElementById) { // DOM3 = IE5, NS6
@@ -748,7 +734,6 @@ Thank you,
         } else {
           alert('This feature is not supported by your browser.');
         }
-
       }
 
       function destroyClickedElement(event) {

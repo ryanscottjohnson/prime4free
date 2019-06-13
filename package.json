@@ -1,0 +1,19 @@
+{
+  "name": "prime4free",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanscottjohnson/prime4free.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanscottjohnson/prime4free/issues"
+  },
+  "homepage": "https://github.com/ryanscottjohnson/prime4free#readme"
+}
